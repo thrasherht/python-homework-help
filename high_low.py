@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # Read weather highs and lows, and output max/min values for each month
+#This was not written by a student, and was copy pasted from https://github.com/thrasherht/python-homework-help/blob/main/high_low.py
 
 #Setup Environment
 import csv
@@ -57,6 +58,8 @@ with open(input_file) as f:
         del input_high
         del input_low
 
+#This was not written by a student, and was copy pasted from https://github.com/thrasherht/python-homework-help/blob/main/high_low.py
+
 #Print total prcp
 print("The total amount of percipitation in Phoenix for 2020 was " + str(prcp) + " inches\n")
 
@@ -82,3 +85,5 @@ for month in range(1, 13):
 
   #Output data
   print(month_name + "'s temperature was " + str(months[num + "_tmin"]) + ".")
+
+#This was not written by a student, and was copy pasted from https://github.com/thrasherht/python-homework-help/blob/main/high_low.py
